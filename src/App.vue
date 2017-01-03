@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <fizz-buzz></fizz-buzz>
+    <buttons></buttons>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
+import FizzBuzz from './components/FizzBuzz'
+import Buttons from './components/Buttons'
 
 export default {
   name: 'app',
   components: {
-    Hello
+    FizzBuzz,
+    Buttons
   }
 }
 </script>
